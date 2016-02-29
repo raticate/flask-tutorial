@@ -1,2 +1,4 @@
 /py3env
 /__pycache__
+/app/__pycache__/*
+/db_repository/*
