@@ -52,4 +52,5 @@ def after_login(resp):
 
     @app.before_request
     def before_request():
+        print(current_user)
         g.user = current_user
